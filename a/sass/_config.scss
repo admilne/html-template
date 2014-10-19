@@ -1,0 +1,16 @@
+@import 'mixins';
+@import 'variables';
+@import 'normalize';
+@import 'sticky-footer';
+
+h1 {
+	@include font-size(22);
+}
+
+h2 {
+	@include font-size(18);
+}
+
+p {
+	@include font-size(14);
+}

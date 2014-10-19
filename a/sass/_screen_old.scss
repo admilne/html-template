@@ -1,0 +1,81 @@
+/*------------------------------------*\
+    $CONTENTS
+\*------------------------------------*/
+
+	/*
+	NOTES
+	RESET
+	DEFAULT     HTML, BODY, etc.
+	SHARED     	Share anything we can across elements.
+	MODULES 	
+	RESPONSIVE 	Responsive styles, may be better off alongside the individual elements?
+	*/
+
+
+
+
+
+/*------------------------------------*\
+    $RESET
+\*------------------------------------*/
+
+	html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+	body {line-height:1.5;}
+	table {border-collapse:separate;border-spacing:0;}
+	caption, th, td {text-align:left;font-weight:normal;}
+	table, td, th {vertical-align:middle;}
+	blockquote:before, blockquote:after, q:before, q:after {content:"";}
+	blockquote, q {quotes:"" "";}
+	a img {border:none;}
+
+
+
+
+
+/*------------------------------------*\
+    $DEFAULT
+\*------------------------------------*/
+
+html {
+	font-size: 10px; /* Set base font size for easy use of rem */
+}
+
+body {
+	font-size: 16px; /* Old browsers */
+	font-size: 1.6rem;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $SHARED
+\*------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------*\
+    $MODULES
+\*------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------*\
+    $RESPONSIVE
+\*------------------------------------*/
+
+	@media screen and (max-width: 1024px) {
+
+		.classname {
+			Element: setting;
+		}
+	}
